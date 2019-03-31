@@ -1,1 +1,1 @@
-web: flask translate compile; gunicorn wedding-service:app
+web: gunicorn app:app
